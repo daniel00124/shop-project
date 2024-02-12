@@ -1,0 +1,185 @@
+body{
+    background-color: #00BCD4;
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#sign,#productPage,#buyPage{
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4.6px);
+    min-height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#sign h1{
+    color: white;
+    font-size: 40px;
+}
+#sign #inp{
+    display: flex;
+    flex-direction: column;
+}
+#sign #inp input{
+    margin: 10px 0;
+    width: 300px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4.6px);
+}
+#sign #mindiv{
+    display: flex;
+    margin-top: 3rem;
+}
+#sign #mindiv button{
+    background-color: #1e32915c;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    cursor: pointer;
+}
+#sign #mindiv a{
+    background-color: #1e32915c;
+    height: 48px;
+    width: 148px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+
+#productPage #topSection{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-around;
+}
+
+#productPage #topSection select{
+    background-color: #1e32915c;
+    height: 50px;
+    width: 85px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    cursor: pointer;
+    text-align: center;
+}
+#productPage #topSection button{
+    background-color: #1e32915c;
+    height: 50px;
+    width: 85px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    cursor: pointer;
+    text-align: center;
+}
+#productPage #topSection h1{
+    color: white;
+}
+#productPage input{
+    margin: 0 0 10px 0;;
+    width: 300px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4.6px);
+}
+#productPage #btn{
+    background-color: #1e32915c;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    cursor: pointer;
+}
+#productPage #products div{
+    width: 250px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4.6px);
+    color: white;
+    margin-bottom: 5px;
+}
+#productPage #products div button{
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.6px);
+    color: white;
+    background-color: #1e32915c;
+    border: none;
+    width: 180px;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+#buyPage h1{
+    color: white;
+    font-size: 40px;
+}
+#buyPage #showSelectedProduct div{
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4.6px);
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+}
+#buyPage #showSelectedProduct div p{
+    margin: 0;
+}
+#buyPage #totalPrice{
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4.6px);
+    text-align: center;
+    margin-top: 1rem;
+    padding: 5px;
+    background-color: #02ff02b8;
+}
+#buyPage button{
+    background-color: #1e32915c;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    margin: 0 15px;
+    cursor: pointer;
+}

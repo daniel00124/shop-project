@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload ="createProduct()">
+    <div id="productPage">
+    <div id="topSection" style="display: flex;">
+        <select  id="selected">
+            <option  value="by-price">by price</option>
+            <option  value="by-name">by name</option>
+        </select >
+        <h1>Sv-shop</h1>
+        <button onclick="createProduct()">sort</button>
+    </div>
+    <input id="serchProduct" type="text" placeholder="serch">
+    <div id="products"></div>
+    <button id="btn" onclick="storCart()">buy</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
